@@ -310,3 +310,8 @@ footer {
   width: 80%;
   margin: 0 25px 40px 25px;
 }
+
+@media screen and(max-width:600px){
+  .nav ul{
+    overflow:hidden;
+    
