@@ -27,14 +27,14 @@ nav {
   width: 50px;
   margin-top: 10px;
 }
-ul {
+/* ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-}
+} */
 
-.nav-item {
+/* .nav-item {
   display: flex;
   margin-left: 2rem;
   height: 30px;
@@ -42,8 +42,13 @@ ul {
   margin: 15px;
   padding: 22px;
 }
-
+ */
 .nav-link {
+  margin-left: 2rem;
+  height: 30px;
+  align-items: center;
+  margin: 15px;
+  padding: 22px;
   color: black;
   text-decoration: none;
   font-weight: var(--bold-font);
@@ -313,7 +318,9 @@ footer {
 }
 
 @media screen and(max-width:600px){
-  .dropdown{
+}
+
+.dropdown{
   float:left;
   overflow:hidden;
 }
@@ -332,5 +339,5 @@ footer {
 .dropdown:hover .dropcontent{
   display:block;
 }
-}
+
 
